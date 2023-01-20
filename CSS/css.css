@@ -1,0 +1,180 @@
+/* Obecné */
+body, html, bcg, nav {
+    scroll-behavior: smooth;
+    scrll-padding-top: 56px;
+}
+.navbar-brand {
+    color: red !important;
+    letter-spacing: 1px;
+}
+.offcanvas-title {
+    color: red !important;
+    letter-spacing: 1px;
+}
+#bcg {
+    background-image: linear-gradient(to right top, #000000, #360e18, #67071e, #98001a, #c50000);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    overflow: auto;
+}
+.nav-link:hover{
+    color:red !important;
+}
+.container{
+    margin-top: 6%;
+}
+.center{
+    align-content: center;
+    text-align: center;
+}
+/* index.html */
+.container, h100 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    width: 200%;
+    margin-left: -50%;
+    margin-top: 10%;
+}
+.card-title {
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
+.hmax {
+    height: 80%;
+}
+.pfp {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-color: darkred;
+    border-style: solid;
+    border-width: 3px;
+    margin-top: 5px;
+}
+.icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;  
+}
+.btn {
+    margin-bottom: 8px !important;
+    width: 95%
+}
+.discord:hover {
+    background-color: #7289da !important;
+    border-color: blue !important;
+}
+.twitter:hover {
+    background-color: #1DA1F2 !important;
+    border-color: lightblue !important;
+}
+.instagram:hover {
+    background-color: #8a3ab9 !important;
+    border-color: #301934 !important;
+}
+.steam:hover {
+    background-color: #1b2838 !important;
+    border-color: black !important;
+}
+
+
+/* About me and what is a furry */
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-color: #a61c2a;
+    border-style: solid;
+    border-width: 5px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+.profile-info {
+    overflow: hidden;
+    text-align: center;
+}
+@media (max-width: 767px) {
+    .profile-picture {
+        float: none;
+        margin-right: 0;
+        margin-bottom: 20px;
+        margin: 0 auto;
+    }
+    .profile-info {
+        text-align: center;
+        margin-top: 15%;
+    }
+}
+.row1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.abtm{
+    margin-top: 6%;
+}
+.abtm {
+    margin-top: 6%;
+    background-color: black;
+}
+.info{
+    letter-spacing: 1px;
+}
+.headline {
+    color: red;
+}
+/* FURRCONS */
+.map {
+    width: 250px;
+    height: 250px;
+    border-radius: 5%;
+    border-color: #a61c2a;
+    border-style: solid;
+    border-width: 5px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    float: right;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+@media (max-width: 767px) {
+    .map {
+        float: none;
+        margin-right: 0;
+        margin-bottom: 20px;
+        margin: 0 auto;
+    }
+    .profile-info {
+        text-align: center;
+        margin-top: 15%;
+    }
+}
+.btms {
+    margin-bottom: 60px;
+}
+/* footer */
+footer {
+    position: fixed;
+   bottom: 0;
+   width: 100%;
+   height: 60px;   /* Height of the footer */
+   background-color: red;
+}
+.red {
+    background-image: linear-gradient(to bottom, #000000, #310e17, #5c0d1f, #88041f, #b20315);
+}
+.stred {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #FFFFFF70
+}
